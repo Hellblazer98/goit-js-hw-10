@@ -8,7 +8,6 @@ const input = document.querySelector('#search-box');
 const countryList = document.querySelector('.country-list');
 const countryInfo = document.querySelector('.country-info');
 
-
 countryList.style.listStyle = "none";
 
 input.addEventListener('input', debounce(onFindCountry, DEBOUNCE_DELAY));
